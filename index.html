@@ -1,150 +1,296 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevStudio</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
 
-</head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header>
-
-        <nav>
-            <div class="nav-wrapper">
-                <a href="https://upload.wikimedia.org/wikipedia/commons/2/22/.dev_gTLD_logo.png" class="brand-logo"><i
-                        class="material-icons">cloud</i>DevCloud</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="badges.html">About</a></li>
-                    <li><a href="location.html">Location</a></li>
-
-                </ul>
-            </div>
-        </nav>
-
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a
+          href="https://upload.wikimedia.org/wikipedia/commons/2/22/.dev_gTLD_logo.png"
+          class="navbar-brand"
+        >
+          <i class="material-icons">cloud</i>DevCloud
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#historia">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mision">Misión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vision">Visión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ubicacion">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <section>
-        <div class="carusell">   
-        </div>
+    <section id="header">
+      <a
+        href="#header"
+        id="back-to-top"
+        class="btn-floating btn-large waves-effect waves-light red"
+      >
+        <i class="material-icons">keyboard_arrow_up</i>
+      </a>
     </section>
 
-    <div class="section white">
-        <div class="row container">
-          <h2 class="header">Historia</h2>
-          <br>
-          <p class="grey-text text-darken-3 lighten-3">Hace una década, en un pequeño garaje en la ciudad de Silicon Valley, un grupo de entusiastas tecnológicos y emprendedores decidieron embarcarse en una emocionante aventura. Compartían una visión de un mundo cada vez más conectado y dependiente de la tecnología en la nube. Así nació DevCloud, una empresa que revolucionaría la forma en que las organizaciones gestionan sus recursos tecnológicos en línea.
+    <section>
+      <div class="carusell"></div>
+    </section>
 
-            En sus primeros años, DevCloud comenzó como una modesta startup que ofrecía servicios de alojamiento web y almacenamiento en la nube para pequeñas empresas y desarrolladores independientes. Su compromiso con la seguridad, la eficiencia y la innovación pronto atrajo la atención de empresas más grandes y organizaciones gubernamentales.
-            
-            A medida que crecían, el equipo de DevCloud se dio cuenta de que había un creciente deseo de adoptar tecnologías de múltiples proveedores de nube, ya que ninguna nube única podía satisfacer todas las necesidades de sus clientes. Fue entonces cuando DevCloud decidió expandir su enfoque y convertirse en un puente entre múltiples servicios en la nube.
-            
-            Desarrollaron una plataforma única que permitía a las empresas gestionar y optimizar sus recursos en la nube de una manera unificada. Ofrecían servicios de consultoría, migración de datos y automatización para garantizar que las organizaciones pudieran aprovechar al máximo la flexibilidad y escalabilidad de la nube, independientemente del proveedor.
-            
-            Con el tiempo, DevCloud se convirtió en un líder en el mercado de gestión de múltiples nubes. Sus soluciones ayudaron a empresas de todo el mundo a reducir costos, mejorar la seguridad y aumentar la agilidad en un entorno empresarial cada vez más digital.</p>
-        </div>
-      </div>
-    
-    
-    <div class="section white">
-        <div class="row container">
-          <h2 class="header">Mision</h2>
-          <p class="grey-text text-darken-3 lighten-3">Ayudar a empresas de todos los tamaños a aprovechar al máximo la potencia de la nube de AWS para impulsar la innovación, mejorar la eficiencia y lograr el éxito en la era digital.</p>
-        </div>
-      </div>
-    
-
-
-      
-    <div class="section white">
-        <div class="row container">
-          <h2 class="header">Vision</h2>
-          <p class="grey-text text-darken-3 lighten-3">Ser reconocidos como el socio preferido para la transformación digital y la gestión de la nube en América Latina y más allá, ofreciendo soluciones de clase mundial en la plataforma de AWS.</p>
-        </div>
-      </div>
-    
-
-
-
+    <section id="historia" class="section white">
       <div class="container">
-        <div class="row container">
-            <h2 class="header">Producto</h2>
-        </div>
-        <ul class="image-gallery"
-        >
-        <li>
-            <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-            <div class="overlay"><span>Image title</span></div>
-          </li>
-        
-          <li>
-            <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-            <div class="overlay"><span>Image title</span></div>
-          </li>
-        
-          <li>
-            <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-            <div class="overlay"><span>Image title</span></div>
-          </li>
-        
-          <li>
-            <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-            <div class="overlay"><span>Image title</span></div>
-          </li>
-        
-          <li>
-            <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-            <div class="overlay"><span>Image title</span></div>
-          </li>
-          <li>
-            <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-            <div class="overlay"><span>Image title</span></div>
-          </li>
-        
-        </ul>
-  
+        <h2 class="header">Historia</h2>
+        <br />
+        <p class="grey-text text-darken-3 lighten-3">
+          Hace una década, en un pequeño garaje en la ciudad de Silicon Valley,
+          un grupo de entusiastas tecnológicos y emprendedores decidieron
+          embarcarse en una emocionante aventura. Compartían una visión de un
+          mundo cada vez más conectado y dependiente de la tecnología en la
+          nube. Así nació DevCloud, una empresa que revolucionaría la forma en
+          que las organizaciones gestionan sus recursos tecnológicos en línea.
+          En sus primeros años, DevCloud comenzó como una modesta startup que
+          ofrecía servicios de alojamiento web y almacenamiento en la nube para
+          pequeñas empresas y desarrolladores independientes. Su compromiso con
+          la seguridad, la eficiencia y la innovación pronto atrajo la atención
+          de empresas más grandes y organizaciones gubernamentales. A medida que
+          crecían, el equipo de DevCloud se dio cuenta de que había un creciente
+          deseo de adoptar tecnologías de múltiples proveedores de nube, ya que
+          ninguna nube única podía satisfacer todas las necesidades de sus
+          clientes. Fue entonces cuando DevCloud decidió expandir su enfoque y
+          convertirse en un puente entre múltiples servicios en la nube.
+          Desarrollaron una plataforma única que permitía a las empresas
+          gestionar y optimizar sus recursos en la nube de una manera unificada.
+          Ofrecían servicios de consultoría, migración de datos y automatización
+          para garantizar que las organizaciones pudieran aprovechar al máximo
+          la flexibilidad y escalabilidad de la nube, independientemente del
+          proveedor. Con el tiempo, DevCloud se convirtió en un líder en el
+          mercado de gestión de múltiples nubes. Sus soluciones ayudaron a
+          empresas de todo el mundo a reducir costos, mejorar la seguridad y
+          aumentar la agilidad en un entorno empresarial cada vez más digital.
+        </p>
       </div>
+    </section>
 
+    <section id="mision" class="section white">
+      <div class="container">
+        <h2 class="header">Misión</h2>
+        <p class="grey-text text-darken-3 lighten-3">
+          Ayudar a empresas de todos los tamaños a aprovechar al máximo la
+          potencia de la nube de AWS para impulsar la innovación, mejorar la
+          eficiencia y lograr el éxito en la era digital.
+        </p>
+      </div>
+    </section>
 
+    <section id="vision" class="section white">
+      <div class="container">
+        <h2 class="header">Visión</h2>
+        <p class="grey-text text-darken-3 lighten-3">
+          Ser reconocidos como el socio preferido para la transformación digital
+          y la gestión de la nube en América Latina y más allá, ofreciendo
+          soluciones de clase mundial en la plataforma de AWS.
+        </p>
+      </div>
+    </section>
 
+    <section id="productos" class="container">
+      <div class="container">
+        <h2 class="header">Productos</h2>
+      </div>
+      <ul class="image-gallery" style="list-style-type: none">
+        <li>
+          <img
+            src="https://www.imagar.com/wp-content/uploads/2018/06/azure.png"
+            alt="Azure"
+          />
+          <div class="overlay"><span>Azure</span></div>
+        </li>
 
+        <li>
+          <img
+            src="https://abouttmc.com/wp-content/uploads/2021/07/TMC-Azure-Services-Wheel-Technology-Expertise-Business-Experience-1024x536.png"
+            alt="Services"
+          />
+          <div class="overlay"><span>Azure services</span></div>
+        </li>
+
+        <li>
+          <img
+            src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
+            alt="AWS"
+          />
+          <div class="overlay"><span>AWS</span></div>
+        </li>
+
+        <li>
+          <img
+            src="https://allcode.com/wp-content/uploads/2021/02/Group-169-3.png"
+            alt="Service"
+          />
+          <div class="overlay"><span>AWS Services</span></div>
+        </li>
+
+        <li>
+          <img
+            src="https://www.tuxcloud.com/wp-content/uploads/google-cloud.jpg"
+            alt="Google"
+          />
+          <div class="overlay"><span>Google</span></div>
+        </li>
+        <li>
+          <img
+            src="https://cdn.educba.com/academy/wp-content/uploads/2019/09/what-is-google-cloud-platform.jpg"
+            alt="Service"
+          />
+          <div class="overlay"><span>Google Cloud Service</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="ubicacion" class="section white">
+      <div class="container" style="text-align: center">
+        <h2 class="header">Ubicación</h2>
+        <p class="grey-text text-darken-3 lighten-3">
+          Apopa, Insigne Tower, San Salvador CP 1101
+        </p>
+        <br />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61990.33367741976!2d-89.21382154162514!3d13.815252465105855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633be79926ef01%3A0xa400eac0e14af99b!2sApopa!5e0!3m2!1ses-419!2ssv!4v1693629854701!5m2!1ses-419!2ssv"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
 
     <footer class="page-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 10</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-              </ul>
-            </div>
+      <section id="contacto" class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Contactos</h5>
+            <p class="White-text text-lighten-4">Número: 2020-2323</p>
+            <p class="white-text text-lighten-4">Correo: devstudio@gmail.com</p>
+            <p class="white-text text-lighten-4">Fax: 2323-2323</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Social media</h5>
+            <ul style="list-style-type: none">
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  >Facebook: DevStudioFB</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  >Twitter: DevStudioX</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  >Instagram: DevStudioIG</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  >Tiktok: DevStudioTK</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-          </div>
-        </div>
-      </footer>
-          
+      </section>
 
+      <div class="footer-copyright">
+        <div class="container">© 2023 DevStudio</div>
+      </div>
+    </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</body>
+    <!-- Include Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"
+      integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD5tr5p5F5O3p2f5vfa0b04Kxy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD5tr5p5F5O3p2f5vfa0b04Kxy"
+      crossorigin="anonymous"
+    ></script>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var backButton = document.getElementById("back-to-top");
+        var header = document.getElementById("header");
+
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > header.offsetTop) {
+            backButton.style.display = "block";
+          } else {
+            backButton.style.display = "none";
+          }
+        });
+
+        backButton.addEventListener("click", function (e) {
+          e.preventDefault();
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
 </html>
