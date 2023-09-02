@@ -95,7 +95,15 @@ p {
 
     padding: 50px;
 }
+.overlay {
 
+   text-align: center;
+   max-height: 350px;
+}
+
+.imageoverlay{
+  max-height:  350px;
+}
 .page-footer {
 
     background-color: rgb(91, 66, 104);
